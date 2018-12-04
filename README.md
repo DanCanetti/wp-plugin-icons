@@ -17,6 +17,13 @@ A font which includes some of the most popular WordPress Icons.
 <a href="#" class="wp-plugin-jetpack"></a>
 ```
 
+# Requesting new icons
+[Request Icons Here](https://github.com/DanCanetti/wp-plugin-icons/issues) and add the label 'Icon Request'
+
 # Updates as/when I get time
-- Adding more icons - [Request Icons Here](#)
+- Adding more icons
 - Sass installation
+
+# License
+Free to use however you like. Go nuts!
+If you're using wp-plugin-fonts, let me know on [Twitter](https://twitter.com/Dan_Canetti) I'd love to see it in action!
