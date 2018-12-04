@@ -21,6 +21,7 @@ A font which includes some of the most popular WordPress Icons.
 [Request Icons Here](https://github.com/DanCanetti/wp-plugin-icons/issues) and add the label 'Icon Request'
 
 # Updates as/when I get time
+- Creating a demo page
 - Adding more icons
 - Sass installation
 
