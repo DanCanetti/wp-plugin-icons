@@ -3,7 +3,7 @@ Wordpress Plugin Icon Font
 A font which includes some of the most popular WordPress Icons.
 
 # Installing the icons in your project
-[Download fonts and stylesheets](#)
+[Download fonts and stylesheets](https://github.com/DanCanetti/wp-plugin-icons/archive/master.zip)
 - Unzip the downloaded file
 - Copy the font files to your fonts/webfonts directory
 - Copy the CSS files (To save loading times I reccommend only copying the minified file) to your css directory
