@@ -15,7 +15,7 @@ A font which includes some of the most popular WordPress Icons.
 # Using the icons
 ``` html
 <i class="wp-plugin-yoast"></i> Yoast SEO
-<span class="wp-plugin-ithemes-security icon" aria-label="iThemes Security"></span>
+<span class="wp-plugin-ithemes-security" aria-label="iThemes Security"></span>
 <a href="#" class="wp-plugin-jetpack"></a>
 ```
 
