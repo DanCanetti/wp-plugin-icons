@@ -26,6 +26,9 @@ A font which includes some of the most popular WordPress Icons.
 - Adding more icons
 - Sass installation
 
+#  🍺 Buy me a pint
+[It's greatly appreciated!](http://bit.ly/wp-plugin-icon-donation)
+
 # License
 Free to use however you like. Go nuts!
 If you're using wp-plugin-fonts, let me know on [Twitter](https://twitter.com/Dan_Canetti) I'd love to see it in action!
