@@ -1,5 +1,5 @@
 # Wordpress Plugin Icon Font
-A font which includes some of the most popular WordPress Icons.
+A font which includes some of the most popular WordPress Icons.<br />
 [View Demo](https://dancanetti.github.io/wp-plugin-icons/)
 
 # Installing the icons in your project
@@ -43,5 +43,5 @@ A font which includes some of the most popular WordPress Icons.
 [It's greatly appreciated!](http://bit.ly/wp-plugin-icon-donation)
 
 # License
-Free to use however you like. Go nuts!
+Free to use however you like. Go nuts!<br />
 If you're using wp-plugin-fonts, let me know on [Twitter](https://twitter.com/Dan_Canetti) I'd love to see it in action!
