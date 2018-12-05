@@ -19,8 +19,21 @@ A font which includes some of the most popular WordPress Icons.
 <a href="#" class="wp-plugin-jetpack"></a>
 ```
 
+# Current icons
+- Advanced Custom Fields
+- Contact Form 7
+- Divi Builder
+- iThemes Security
+- Jetpack
+- LearnPress
+- Yoast SEO
+
 # Requesting new icons
 [Request Icons Here](https://github.com/DanCanetti/wp-plugin-icons/issues) and add the label 'Icon Request'
+
+# Changelog
+**Version 1.0.0**
+- Initial Version
 
 # Updates as/when I get time
 - Creating a better demo page
