@@ -10,11 +10,12 @@ A font which includes some of the most popular WordPress Icons.
 - Copy the CSS files (To save loading times I reccommend only copying the minified file) to your css directory
 - Include the css file in the ```<head>``` of your project
 - You're should be ready to use the icons now
+- **Don't forget to apply the ```aria-label="Plugin Name"``` if you're using the icon on it's own**
 
 # Using the icons
 ``` html
-<i class="wp-plugin-yoast"></i>
-<span class="wp-plugin-ithemes-security icon"></span>
+<i class="wp-plugin-yoast"></i> Yoast SEO
+<span class="wp-plugin-ithemes-security icon" aria-label="iThemes Security"></span>
 <a href="#" class="wp-plugin-jetpack"></a>
 ```
 
