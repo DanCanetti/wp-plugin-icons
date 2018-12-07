@@ -1,0 +1,114 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?l8w7fr');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?l8w7fr#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?l8w7fr') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?l8w7fr') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?l8w7fr##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="wp-plugin-"], [class*=" wp-plugin-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-plugin-acf-alt {
+  &:before {
+    content: $wp-plugin-acf-alt; 
+  }
+}
+.wp-plugin-askimet-alt {
+  &:before {
+    content: $wp-plugin-askimet-alt; 
+  }
+}
+.wp-plugin-askimet {
+  &:before {
+    content: $wp-plugin-askimet; 
+  }
+}
+.wp-plugin-duplicator {
+  &:before {
+    content: $wp-plugin-duplicator; 
+  }
+}
+.wp-plugin-ninja-forms {
+  &:before {
+    content: $wp-plugin-ninja-forms; 
+  }
+}
+.wp-plugin-updraft {
+  &:before {
+    content: $wp-plugin-updraft; 
+  }
+}
+.wp-plugin-w3-total-cache {
+  &:before {
+    content: $wp-plugin-w3-total-cache; 
+  }
+}
+.wp-plugin-woo-commerce {
+  &:before {
+    content: $wp-plugin-woo-commerce; 
+  }
+}
+.wp-plugin-wordfence {
+  &:before {
+    content: $wp-plugin-wordfence; 
+  }
+}
+.wp-plugin-wp-smush {
+  &:before {
+    content: $wp-plugin-wp-smush; 
+  }
+}
+.wp-plugin-acf {
+  &:before {
+    content: $wp-plugin-acf; 
+  }
+}
+.wp-plugin-contact-form-7 {
+  &:before {
+    content: $wp-plugin-contact-form-7; 
+  }
+}
+.wp-plugin-divi {
+  &:before {
+    content: $wp-plugin-divi; 
+  }
+}
+.wp-plugin-ithemes-security {
+  &:before {
+    content: $wp-plugin-ithemes-security; 
+  }
+}
+.wp-plugin-jetpack {
+  &:before {
+    content: $wp-plugin-jetpack; 
+  }
+}
+.wp-plugin-learnpress {
+  &:before {
+    content: $wp-plugin-learnpress; 
+  }
+}
+.wp-plugin-yoast {
+  &:before {
+    content: $wp-plugin-yoast; 
+  }
+}
+

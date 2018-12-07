@@ -1,10 +1,18 @@
 @font-face {
   font-family: 'wp-plugin-icons';
+<<<<<<< HEAD
   src:  url('webfonts/wp-plugin-icons.eot?fq8jk4');
   src:  url('webfonts/wp-plugin-icons.eot?fq8jk4#iefix') format('embedded-opentype'),
     url('webfonts/wp-plugin-icons.ttf?fq8jk4') format('truetype'),
     url('webfonts/wp-plugin-icons.woff?fq8jk4') format('woff'),
     url('webfonts/wp-plugin-icons.svg?fq8jk4#wp-plugin-icons') format('svg');
+=======
+  src:  url('fonts/wp-plugin-icons.eot?l8w7fr');
+  src:  url('fonts/wp-plugin-icons.eot?l8w7fr#iefix') format('embedded-opentype'),
+    url('fonts/wp-plugin-icons.ttf?l8w7fr') format('truetype'),
+    url('fonts/wp-plugin-icons.woff?l8w7fr') format('woff'),
+    url('fonts/wp-plugin-icons.svg?l8w7fr#wp-plugin-icons') format('svg');
+>>>>>>> 4c223cd3d8cb2d73d4708092975ce80ac06e6206
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +32,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
+=======
+.wp-plugin-acf-alt:before {
+  content: "\e907";
+}
+.wp-plugin-askimet-alt:before {
+  content: "\e908";
+}
+.wp-plugin-askimet:before {
+  content: "\e909";
+}
+.wp-plugin-duplicator:before {
+  content: "\e90a";
+}
+.wp-plugin-ninja-forms:before {
+  content: "\e90b";
+}
+.wp-plugin-updraft:before {
+  content: "\e90c";
+}
+.wp-plugin-w3-total-cache:before {
+  content: "\e90d";
+}
+.wp-plugin-woo-commerce:before {
+  content: "\e90e";
+}
+.wp-plugin-wordfence:before {
+  content: "\e90f";
+}
+.wp-plugin-wp-smush:before {
+  content: "\e910";
+}
+>>>>>>> 4c223cd3d8cb2d73d4708092975ce80ac06e6206
 .wp-plugin-acf:before {
   content: "\e900";
 }
