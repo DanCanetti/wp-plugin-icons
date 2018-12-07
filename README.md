@@ -2,9 +2,15 @@
 A font which includes some of the most popular WordPress Icons.<br />
 [View Demo](https://dancanetti.github.io/wp-plugin-icons/)
 
-# Installing the icons in your project
-[Download fonts and stylesheets](https://github.com/DanCanetti/wp-plugin-icons/archive/master.zip)
-* Unzip the downloaded file
+# Installing the icons via download
+### yarn
+```
+yarn add wordpress-icon-font
+```
+### Direct download
+[Download fonts and stylesheets](https://github.com/DanCanetti/wp-plugin-icons/archive/master.zip) and unzip the downloaded file.
+
+### Install
 * Copy the font files to your fonts/webfonts directory
 * Copy the CSS files (To save loading times I reccommend only copying the minified file) to your css directory
 * Include the css file in the ```<head>``` of your project
@@ -44,7 +50,6 @@ A font which includes some of the most popular WordPress Icons.<br />
 
 ## Version 1.0.1 ##
 * Added scss files for install
-* Improved demo page to include Aria Labels for each icon
 * Added these icons:
     * Askimet & Alt
     * Advanced Custom Fields Alt
@@ -56,9 +61,12 @@ A font which includes some of the most popular WordPress Icons.<br />
     * Duplicator
     * Ninja Forms
 
+## Version 1.0.1 ##
+* Now available as yarn package
 
 # Updates as/when I get time
 * Creating a better demo page
+   * Include recommended Aria Labels for each icon
 * Adding more icons
 
 #  🍺 Buy me a pint
