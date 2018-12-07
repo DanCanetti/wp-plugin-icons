@@ -2,7 +2,7 @@
 A font which includes some of the most popular WordPress Icons.<br />
 [View Demo](https://dancanetti.github.io/wp-plugin-icons/)
 
-# Installing the icons via download
+# Installing the icons
 ### yarn
 ```
 yarn add wordpress-icon-font
