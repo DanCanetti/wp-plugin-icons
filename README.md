@@ -61,7 +61,7 @@ yarn add wordpress-icon-font
     * Duplicator
     * Ninja Forms
 
-## Version 1.0.1 ##
+## Version 1.0.2 ##
 * Now available as yarn package
 
 # Updates as/when I get time
