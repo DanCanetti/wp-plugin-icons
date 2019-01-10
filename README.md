@@ -70,7 +70,7 @@ yarn add wordpress-icon-font
 * Adding more icons
 
 # ☕ Buy me a pint
-If you liked my stuff, please consider buying me a coffee.
+If you liked Wordpress Plugin Icon Font, please consider buying me a coffee.
 [Thank you for your support!](buymeacoff.ee/MfXCoSEBF)
 
 # License
