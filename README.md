@@ -69,7 +69,7 @@ yarn add wordpress-icon-font
    * Include recommended Aria Labels for each icon
 * Adding more icons
 
-# ☕ Buy me a pint
+# ☕ Buy me a Coffee
 If you liked Wordpress Plugin Icon Font, please consider buying me a coffee.
 [Thank you for your support!](buymeacoff.ee/MfXCoSEBF)
 
