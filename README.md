@@ -69,8 +69,9 @@ yarn add wordpress-icon-font
    * Include recommended Aria Labels for each icon
 * Adding more icons
 
-#  🍺 Buy me a pint
-[It's greatly appreciated!](http://bit.ly/wp-plugin-icon-donation)
+# ☕ Buy me a pint
+If you liked my stuff, please consider buying me a coffee.
+[Thank you for your support!](buymeacoff.ee/MfXCoSEBF)
 
 # License
 Free to use however you like. Go nuts!<br />
