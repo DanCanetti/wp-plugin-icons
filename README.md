@@ -71,7 +71,7 @@ yarn add wordpress-icon-font
 
 # ☕ Buy me a Coffee
 If you liked Wordpress Plugin Icon Font, please consider buying me a coffee.
-[Thank you for your support!](buymeacoff.ee/MfXCoSEBF)
+[Thank you for your support!](http://buymeacoff.ee/MfXCoSEBF)
 
 # License
 Free to use however you like. Go nuts!<br />
