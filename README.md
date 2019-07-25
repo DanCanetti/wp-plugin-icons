@@ -1,4 +1,4 @@
-# Wordpress Plugin Icon Font
+# WordPress Plugin Icon Font
 A font which includes some of the most popular WordPress Icons.<br />
 [View Demo](https://dancanetti.github.io/wp-plugin-icons/)
 
