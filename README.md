@@ -14,10 +14,13 @@ yarn add wordpress-icon-font
 * Copy the font files to your fonts/webfonts directory
 * Copy the CSS files (To save loading times I reccommend only copying the minified file) to your css directory
 * Include the css file in the ```<head>``` of your project
-* You're should be ready to use the icons now
+* You're ready to use the icons now
 * **Don't forget to apply the ```aria-label="Plugin Name"``` if you're using the icon on it's own**
 
 # Using the icons
+
+**Font Name:** wp-plugin-icons
+
 ``` html
 <i class="wp-plugin-yoast"></i> Yoast SEO
 <span class="wp-plugin-ithemes-security" aria-label="iThemes Security"></span>
