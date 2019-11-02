@@ -1,30 +1,21 @@
-if (!('boxShadow' in document.body.style)) {
-    document.body.setAttribute('class', 'noBoxShadow');
+function search() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("WPIconSearch");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("WPIconSearchTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
 }
-
-document.body.addEventListener("click", function(e) {
-    var target = e.target;
-    if (target.tagName === "INPUT" &&
-        target.getAttribute('class').indexOf('liga') === -1) {
-        target.select();
-    }
-});
-
-(function() {
-    var fontSize = document.getElementById('fontSize'),
-        testDrive = document.getElementById('testDrive'),
-        testText = document.getElementById('testText');
-    function updateTest() {
-        testDrive.innerHTML = testText.value || String.fromCharCode(160);
-        if (window.icomoonLiga) {
-            window.icomoonLiga(testDrive);
-        }
-    }
-    function updateSize() {
-        testDrive.style.fontSize = fontSize.value + 'px';
-    }
-    fontSize.addEventListener('change', updateSize, false);
-    testText.addEventListener('input', updateTest, false);
-    testText.addEventListener('change', updateTest, false);
-    updateSize();
-}());

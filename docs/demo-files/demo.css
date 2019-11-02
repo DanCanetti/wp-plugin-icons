@@ -1,152 +1,224 @@
+/* Old */
 body {
-  padding: 0;
+  padding: 0 0 75px 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  color: #555;
+  color: #8B9393;
   background: #fff;
 }
-h1 {
-  font-size: 1.5em;
-  font-weight: normal;
-}
-small {
-  font-size: .66666667em;
-}
-a {
-  color: #e74c3c;
-  text-decoration: none;
-}
-a:hover, a:focus {
-  box-shadow: 0 1px #e74c3c;
-}
-.bshadow0, input {
-  box-shadow: inset 0 -2px #e7e7e7;
-}
-input:hover {
-  box-shadow: inset 0 -2px #ccc;
-}
-input, fieldset {
-  font-family: sans-serif;
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-input {
-  color: inherit;
-  line-height: 1.5;
-  height: 1.5em;
-  padding: .25em 0;
-}
-input:focus {
-  outline: none;
-  box-shadow: inset 0 -2px #449fdb;
-}
-.glyph {
-  font-size: 16px;
-  width: 15em;
-  padding-bottom: 1em;
-  margin-right: 4em;
-  margin-bottom: 1em;
-  float: left;
-  overflow: hidden;
-}
-.liga {
-  width: 80%;
-  width: calc(100% - 2.5em);
-}
-.talign-right {
-  text-align: right;
-}
-.talign-center {
-  text-align: center;
-}
-.bgc1 {
-  background: #f1f1f1;
-}
-.fgc1 {
-  color: #999;
-}
-.fgc0 {
-  color: #000;
-}
-p {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-.mvm {
-  margin-top: .75em;
-  margin-bottom: .75em;
-}
-.mtn {
-  margin-top: 0;
-}
-.mtl, .mal {
-  margin-top: 1.5em;
-}
-.mbl, .mal {
-  margin-bottom: 1.5em;
-}
-.mal, .mhl {
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-}
-.mhmm {
-  margin-left: 1em;
-  margin-right: 1em;
-}
-.mls {
-  margin-left: .25em;
-}
-.ptl {
-  padding-top: 1.5em;
-}
-.pbs, .pvs {
-  padding-bottom: .25em;
-}
-.pvs, .pts {
-  padding-top: .25em;
-}
-.unit {
-  float: left;
-}
-.unitRight {
-  float: right;
-}
-.size1of2 {
-  width: 50%;
-}
-.size1of1 {
-  width: 100%;
-}
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
-.hidden-true {
-  display: none;
-}
-.textbox0 {
-  width: 3em;
-  background: #f1f1f1;
-  padding: .25em .5em;
-  line-height: 1.5;
-  height: 1.5em;
-}
-#testDrive {
-  display: block;
-  padding-top: 24px;
-  line-height: 1.5;
-}
-.fs0 {
-  font-size: 16px;
-}
-.fs1 {
-  font-size: 32px;
+
+header {
+  height: 15vh;
+  background: #2D3142;
+  padding-top: 65px;
+  padding-bottom: 200px;
 }
 
+header .content {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+#logonav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#logonav img {
+  max-width: 35px;
+  margin-bottom: -5px;
+}
+
+#logonav a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: -12px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+#logonav a:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background: #fff;
+  height: 1px;
+  width: 0%;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#logonav a:hover:after {
+  content: "";
+  width: 100%;
+}
+
+#WPIconSearchWrap {
+  float: right;
+  display: inline-block;
+  max-width: 800px;
+  margin: 0px auto 25px auto;
+}
+
+#WPIconSearch {
+  width: 300px;
+  font-size: 10px;
+  padding: 12px 20px 12px 15px;
+  border-radius: 75px;
+  border: none;
+  box-shadow: none;
+}
+
+#WPIconSearchTable {
+  background: #fff;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: -175px;
+  font-size: 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#WPIconSearchTable th {
+  color: #717575;
+  padding: 15px 12px;
+  text-align: left;
+}
+
+#WPIconSearchTable td {
+  text-align: left;
+  padding: 15px 12px;
+}
+
+#WPIconSearchTable td:first-child {
+  width: 15%;
+  text-align: center  
+}
+
+#WPIconSearchTable td i {
+  color: #8B9393;
+  display: block;
+  font-size: 3em;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#WPIconSearchTable tr:nth-of-type(2):hover i {
+  color: #00e4bc; /* ACF */
+}
+
+#WPIconSearchTable tr:nth-of-type(3):hover i {
+  color: #00e4bc; /* ACF alt */
+}
+
+#WPIconSearchTable tr:nth-of-type(4):hover i {
+  color: #5e8e14; /* Askimet */
+}
+
+#WPIconSearchTable tr:nth-of-type(5):hover i {
+  color: #5e8e14; /* Askimet alt */
+}
+
+#WPIconSearchTable tr:nth-of-type(6):hover i {
+  color: #a62f00; /* Contact Form 7 */
+}
+
+#WPIconSearchTable tr:nth-of-type(7):hover i {
+  color: #8f42ec; /* Divi */
+}
+
+#WPIconSearchTable tr:nth-of-type(8):hover i {
+  color: #E93030; /* Duplicator */
+}
+
+#WPIconSearchTable tr:nth-of-type(9):hover i {
+  color: #FFCD08; /* iThemes */
+}
+
+#WPIconSearchTable tr:nth-of-type(10):hover i {
+  color: #00be28; /* Jetpack */
+}
+
+#WPIconSearchTable tr:nth-of-type(11):hover i {
+  color: #553d80; /* LearnPress */
+}
+
+#WPIconSearchTable tr:nth-of-type(12):hover i {
+  color: #ef4748; /* Ninja Forms */
+}
+
+#WPIconSearchTable tr:nth-of-type(13):hover i {
+  color: #2dbfc5; /* W3 Total Cache */
+}
+
+#WPIconSearchTable tr:nth-of-type(14):hover i {
+  color: #008cc1; /* Wordfence */
+}
+
+#WPIconSearchTable tr:nth-of-type(15):hover i {
+  color: #96588a; /* WooCommerce */
+}
+
+#WPIconSearchTable tr:nth-of-type(16):hover i {
+  color: #1abc9c; /* WP Smush */
+}
+
+#WPIconSearchTable tr:nth-of-type(17):hover i {
+  color: #db6939; /* Updraft */
+}
+
+#WPIconSearchTable tr:nth-of-type(18):hover i {
+  color: #a4286a; /* Yoast */
+}
+
+#WPIconSearchTable tr:last-child td {
+  padding-bottom: 40px;
+}
+
+footer {
+  margin-top: 75px;
+  text-align: center;
+}
+
+footer a {
+  position: relative;
+  color: #2D3142;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: -12px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+footer a:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background: #2D3142;
+  height: 1px;
+  width: 0%;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+footer a:hover:after {
+  content: "";
+  width: 100%;
+}
